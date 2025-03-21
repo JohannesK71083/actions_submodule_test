@@ -1,0 +1,10 @@
+name: Submodule Test
+on:
+  workflow_dispatch
+
+jobs:
+  Pyinstaller:
+    runs-on: windows-latest
+    steps:
+      - name: execute pyinstaller_action
+        uses: "JohannesK71083/actions_submodule_main@main"
